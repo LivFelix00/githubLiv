@@ -10,7 +10,7 @@ def ler_pdf(caminho_pdf: str) -> str:
         
     return texto_completo
 
-conteudo = ler_pdf("ASO_NR35.pdf")   
+conteudo = ler_pdf("Docs\ASO_NR35.pdf")   
 print(conteudo)
         
       

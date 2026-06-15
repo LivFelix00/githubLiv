@@ -6,9 +6,9 @@ import pypdf
 
 API_URL = "http://10.16.6.8:11434/api/generate"
 MODEL_NAME = "gpt-oss:20b"
+#ndereço do servidor que roda o modelo e o nome do modelo
 
-
-def enviar_prompt(prompt: str) -> str:
+def enviar_prompt(prompt: str) -> str: # envia o texto para a API e retorna a respostas
     payload = {
         "model": MODEL_NAME,
         "prompt": prompt,
