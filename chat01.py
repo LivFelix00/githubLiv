@@ -23,6 +23,8 @@ def enviar_prompt(prompt: str) -> str:
         return f"Erro na requisição: {erro}"
 
 
+
+
 def obter_argumentos() -> str:
     parser = argparse.ArgumentParser(
         description="Cliente simples para enviar prompts ao modelo via API"
