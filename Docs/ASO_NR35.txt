@@ -1,0 +1,284 @@
+
+--- Página 1 (Texto) ---
+SEU EMPREGADO PRECISA TRABALHAR 
+EM ALTURA?
+
+--- Página 2 (Texto) ---
+SIG-MASS
+Zero acidente: uma meta de todos!
+Anexando o ASO no EDUCARE
+Antes da inscrição no treinamento o sistema solicitará a inclusão do Certificado de Aptidão Física para 
+Trabalho em Altura que constará do Atestado de Saúde Ocupacional (ASO)do empregado. O processo 
+é semelhante ao registro de OJT. Veja abaixo como fazer:
+
+--- Página 3 (Texto) ---
+SIG-MASS
+Zero acidente: uma meta de todos!
+Anexando o ASO no EDUCARE
+
+--- Página 4 (Texto) ---
+SIG-MASS
+Zero acidente: uma meta de todos!
+* Data de Conclusão é a data da emissão do ASO.
+•As informações sobre a aptidão estão no ASO.
+Caso o empregado esteja apto, o ASO apresentará a 
+seguinte frase: APTO PARA TRABALHO EM ALTURA
+Anexando o ASO no EDUCARE
+
+--- Página 5 (Texto) ---
+SIG-MASS
+Zero acidente: uma meta de todos!
+Anexando o ASO no EDUCARE
+
+--- Página 6 (Texto) ---
+SIG-MASS
+Zero acidente: uma meta de todos!
+Após essa etapa o ASO já 
+deverá constar registrado no 
+Educare encerrando o fluxo.
+Atenção: Sem o ASO no 
+EDUCARE o sistema não 
+permite a inscrição do 
+empregado no curso.
+Anexando o ASO no EDUCARE
+
+--- Página 7 (Texto) ---
+Muito Obrigado!
+
+--- Página 2 (Tabela 1) ---
+ | 
+SIG-MASS
+Anexando o ASO no EDUCARE
+Antes da inscrição no treinamento o sistema solicitará a inclusão do Certificado de Aptidão Física para
+Trabalho em Altura que constará do Atestado de Saúde Ocupacional (ASO)do empregado. O processo
+é semelhante ao registro de OJT. Veja abaixo como fazer: | G-MASS
+Zero acidente: uma meta de todos! | 
+
+--- Página 3 (Tabela 1) ---
+ | 
+SIG-MASS
+Anexando o ASO no EDUCARE | G-MASS
+Zero acidente: uma meta de todos! | 
+
+--- Página 4 (Tabela 1) ---
+ | 
+SIG-MASS
+Anexando o ASO no EDUCARE
+* Data de Conclusão é a data da emissão do ASO.
+•As informações sobre a aptidão estão no ASO.
+Caso o empregado esteja apto, o ASO apresentará a
+seguinte frase: APTO PARA TRABALHO EM ALTURA | G-MASS
+Zero acidente: uma meta de todos! | 
+
+--- Página 5 (Tabela 1) ---
+ | 
+SIG-MASS
+Anexando o ASO no EDUCARE | G-MASS
+Zero acidente: uma meta de todos! | 
+
+--- Página 6 (Tabela 1) ---
+ | 
+SIG-MASS
+Anexando o ASO no EDUCARE
+Após essa etapa o ASO já
+deverá constar registrado no
+Educare encerrando o fluxo.
+Atenção: Sem o ASO no
+EDUCARE o sistema não
+permite a inscrição do
+empregado no curso. | G-MASS
+Zero acidente: uma meta de todos! | 
+
+--- Página 1 (OCR Imagem) ---
+SEU EMPREGADO PRECISA TRABALHAR
+EM ALTURA?
+
+Veja como anexar o Certificado de Aptidao Fisica para
+Trabalho em Altura (gerado apos Exame Médico) no
+Educare
+
+cidente: uma meta de todos!
+
+
+
+--- Página 2 (OCR Imagem) ---
+SIG-MASS
+
+Anexando o ASO no EDUCARE
+
+Antes da inscrigao no treinamento o sistema solicitara a inclusao do Certificado de Aptidao Fisica para
+Trabalho em Altura que constara do Atestado de Saude Ocupacional (ASO)do empregado. O processo
+
+é semelhante ao registro de OJT. Veja abaixo como fazer:
+
+e
+F-ovcare
+F ©
+
++ Curriculos Incompletos Atribuir Aprendizado F
+Registrar Empregado
+Q Pesquisar
+Gerenciar Supervisor... =
+DIEGO XAVIER SA... Relatérios ud
+(O) i
+/ Solicitagdes Externas
+Perfil Registrar Aprendizado
+Carregar mais Enviar Mensagem Selecione o tipo de item que deseja registrar:
+. | ‘ Evento baseado em item
+Opcoes € Configurac... 3 ‘ | Registre o aprendizado para itens inseridos no sistema.
+01 @
+
+Zero acidente: uma meta de todos! -€ EMBRAER
+
+
+--- Página 3 (OCR Imagem) ---
+SIG-MASS
+
+Anexando o ASO no EDUCARE
+
+Registrar Aprendizado Selecione os Cursos Desejados do Catalogo
+
+2
+Inserir Detalhes do Item aso nr35
+
+rs
+Obrigatorio V Idiomas: Portugués (Portugese Bra... ; Moeda:BRL (Real Brasileiro)
+Vocé pesquisou “aso nr35"
+
+Cursos (1) Organizar por:
+
+Refinar cursos:
+
+ASO para Trabalho em Altura (MEDICAL_EXAM 929001)
+¥ Categoria ———
+Orientado por Instrutor n Outro Aprendizado @% Selecionar
+
+Online Item para registro do ASO - Atestado de Satide Ocupacional, em
+
+Outro atendimento aos requisitos da NR 35 d mais
+Externo
+
+Gratuito
+
+Zero acidente: uma meta de todos! -€ EMBRAER
+
+
+--- Página 4 (OCR Imagem) ---
+<= | ZERO SIG-MASS
+Oe
+
+ACIDENTE! |” eae,
+4 |=
+
+Anexando o ASO no EDUCARE Ray
+
+tn
+
+Registrar Aprendizado
+
+* Data de Conclusao é a data da emissao do ASO.
+
+p em Altura (929001) Rev 30/Mai/2018 03:00:00 América/Sao Paulo | Alterar Item
+
+*Data de Conclusao: 18 /Ju/2018 Total de Horas:
+(01/JAN/2015)
+Hora de Conclusao:
+
+(HH:mm:ss)
+
+16:12:41 Horas de Contato:
+
+,
+
+* Fuso Horario: Brasilia Time (América/S&o Paulo) v Horas de Crédito:
+ID do Instrutor: Q CPE:
+Nome do Instrutor:
+=| Empregados e Atribuir Padrdes
+
+Remover
+
+@
+
+Nome * Status da Conclusao Comentarios
+
+DIEGO XAVIER vl a
+
+i
+
+SANTOS
+
+MEDICAL_EXAM_PASSED (Apto) - Para crédito
+MEDICAL_EXAM_PASSED_RESTR (Apto com restri¢ées) - Para crédito
+MEDICAL_EXAM_NOTPASSED (Inapto) - Nao para crédito
+
+*As informagoes sobre a aptidao estao noASO.
+Caso fe) empregado gatcie apie: fe) ASO apresentar
+
+Zero acidente: uma meta de todos! <€ EMBRAER
+
+Cancelar
+
+
+--- Página 5 (OCR Imagem) ---
+SIG-MASS
+
+Anexando o ASO no EDUCARE
+
+Registrar Aprendizado
+
+Confirmar Detalhes de Aprendizado
+Item: MEDICAL_EXAM 929001 Rev 1 - 30/Mai/2018 08:00:00 América/S40 Paulo
+
+Data de Conclusao: 18/Jul/2018 Total de Horas: 0.00
+
+Hora de Conclusao: 16:12:41 América/Sao Paulo Horas de Contato:
+
+Instrutor: Horas de Crédito:
+CPE:
+
+Empregados
+
+Nome Status da Conclusao Comentarios Quantidade
+
+DIEGO XAVIER SANTOS MEDICAL_EXAM_PASSED
+
+Cancelar
+
+Zero acidente: uma meta de todos! -€ EMBRAER
+
+
+--- Página 6 (OCR Imagem) ---
+SIG-MASS
+
+Anexando o ASO no EDUCARE
+
+Registrar Aprendizado
+
+Status de Registro
+
+‘Aprendizado Registrado com Exito
+
+Item: MEDICAL_EXAM 929001 Rev: 4 - 30/Mai/2018 08:00:00 América/Sd0 Paulo
+* SANTOS, DIEGO XAVIER
+
+Apos essa etapa o ASO ja
+devera constar registrado no
+Educare encerrando o fluxo.
+
+Fechar Atencgao: Semo ASO no
+
+EDUCARE o sistema nao
+permite a inscrigao do
+empregado no curso.
+
+Nao hd anexos.
+
+Zero acidente: uma meta de todos! -€ EMBRAER
+
+
+--- Página 7 (OCR Imagem) ---
+Muito Obrigado!
+
+cidente: uma meta de todos!
+
+
