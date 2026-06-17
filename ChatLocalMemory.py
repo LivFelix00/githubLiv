@@ -1,19 +1,24 @@
+
 import argparse
 import requests
 import os
+import threading
+import time
 
-API_URL = "http://10.16.6.8:11434/api/generate"
+#porta 1714 - http://10.16.6.8:11434/api/generate"
+API_URL = "http://10.16.6.8:1714/api/generate"
 MODEL_NAME = "gpt-oss:20b"
 
 MEMORY_FILE = "memory.txt"
 
-#Memória de conversa (curto prazo)
+# Memória de conversa
 historico = []
 MAX_MENSAGENS = 6
 
 
-# MEMÓRIA LOCAL (BASE FIXA)
-
+# 📂 =========================
+# 📚 MEMÓRIA LOCAL
+# 📂 =========================
 def carregar_memoria_local():
     if not os.path.exists(MEMORY_FILE):
         return {}
@@ -37,8 +42,9 @@ def buscar_resposta_memoria(pergunta, memoria):
     return None
 
 
-# JANELA DE CONTEXTO
-
+# 🧠 =========================
+# 🪟 CONTEXTO DE CONVERSA
+# 🧠 =========================
 def montar_prompt_com_contexto(nova_mensagem: str) -> str:
     contexto = ""
 
@@ -53,14 +59,26 @@ def atualizar_memoria(usuario_msg: str, resposta: str):
     historico.append(f"Usuário: {usuario_msg}")
     historico.append(f"Assistente: {resposta}")
 
-    # Limita o tamanho da memória
     if len(historico) > MAX_MENSAGENS * 2:
         historico.pop(0)
         historico.pop(0)
 
 
-# CHAMADA À API
+# ⏳ =========================
+# 🤔 ANIMAÇÃO "PENSANDO"
+# ⏳ =========================
+def animacao_pensando(parar_flag):
+    while not parar_flag["parar"]:
+        for ponto in ["", ".", "..", "..."]:
+            if parar_flag["parar"]:
+                break
+            print(f"\r🤔 IA pensando{ponto}   ", end="", flush=True)
+            time.sleep(0.5)
 
+
+# 🌐 =========================
+# 🤖 CHAMADA À API
+# 🌐 =========================
 def enviar_prompt(prompt: str) -> str:
     payload = {
         "model": MODEL_NAME,
@@ -69,14 +87,24 @@ def enviar_prompt(prompt: str) -> str:
     }
 
     try:
-        resposta = requests.post(API_URL, json=payload, timeout=50)
+        resposta = requests.post(
+            API_URL,
+            json=payload,
+            timeout=(5, 120)  # conexão, leitura
+        )
         resposta.raise_for_status()
         return resposta.json().get("response", "Sem resposta da API")
+
+    except requests.exceptions.Timeout:
+        return "⏱️ Erro: tempo de resposta excedido."
+
     except requests.exceptions.RequestException as erro:
         return f"Erro na requisição: {erro}"
 
 
-# CHAT INTELIGENTE
+# 💬 =========================
+# 🎮 CHAT PRINCIPAL
+# 💬 =========================
 def chat():
     memoria_local = carregar_memoria_local()
 
@@ -88,27 +116,38 @@ def chat():
         if entrada.lower() == "sair":
             break
 
-        #  1. Verifica memória local primeiro
+        # 📚 1. Verifica memória local
         resposta_memoria = buscar_resposta_memoria(entrada, memoria_local)
 
         if resposta_memoria:
-            resposta = resposta_memoria
-            print(f" (Memória local)\nIA: {resposta}\n")
+            print(f"\n📚 (Memória local)")
+            print(f"IA: {resposta_memoria}\n")
+            atualizar_memoria(entrada, resposta_memoria)
+
         else:
-            #  2. Usa IA com contexto
+            # 🤔 2. Animação enquanto pensa
+            parar_flag = {"parar": False}
+            thread = threading.Thread(target=animacao_pensando, args=(parar_flag,))
+            thread.start()
+
             prompt = montar_prompt_com_contexto(entrada)
             resposta = enviar_prompt(prompt)
 
-            print(f" IA: {resposta}\n")
+            parar_flag["parar"] = True
+            thread.join()
 
-        #  Atualiza a memória da conversa
-        atualizar_memoria(entrada, resposta)
+            print("\r", end="")  # limpa linha
+            print(f"🤖 IA: {resposta}\n")
+
+            atualizar_memoria(entrada, resposta)
 
 
-# MAIN
+# 🚀 =========================
+# 🏁 MAIN
+# 🚀 =========================
 def main():
     parser = argparse.ArgumentParser(
-        description="Cliente com memória local + contexto"
+        description="Chat com memória local + IA + animação"
     )
     parser.add_argument(
         "--modo",
@@ -119,9 +158,9 @@ def main():
 
     args = parser.parse_args()
 
-    if args.modo == "simples":
-        memoria_local = carregar_memoria_local()
+    memoria_local = carregar_memoria_local()
 
+    if args.modo == "simples":
         if args.texto:
             resposta_memoria = buscar_resposta_memoria(args.texto, memoria_local)
 
@@ -130,7 +169,7 @@ def main():
             else:
                 print(enviar_prompt(args.texto))
         else:
-            print("Digite um texto")
+            print("Digite um texto.")
 
     else:
         chat()
