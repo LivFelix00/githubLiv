@@ -1,0 +1,57 @@
+
+=============================
+📄 PÁGINA 1
+=============================
+
+--- OCR (IMAGEM) ---
+4.2IdentidadeFundamentaldaTrigonometria__editareditarcodigo-fonte
+Relacionasenoecosseno:
+sin2x4cos2x1
+4.3TeoremaFundamentaldoLimiteDefinicaodeDerivadaeditareaitarcodigo-fonteJ
+Adefinigaoclassicavialimites:
+_fXth-fR_y
+tO
+4.4EquacaodeSchrodingerLeditareditarcddigo-fonte
+owrtn.
+ih-am4VrtVrt
+4.5TransformadadeFourierLeditareditarcodigo-fonte
+00
+FEOJf-/fQedt
+4.6TensordeRiemanLeditareditarcddigo-fonte
+Re.008-OF2.Tlie-rert
+
+
+--- LINKS ENCONTRADOS ---
+Nenhum link encontrado
+
+=============================
+📄 PÁGINA 2
+=============================
+
+--- TEXTO ---
+
+
+--- OCR (IMAGEM) ---
+2ComoInserirEquac6esnaWiKieditarecitarcodigo-fonte
+Useatagmathdiretamentenotexto:
+Aderivadadeumafuncdodadaporfxm0.
+Paraequag6esdestacadascentralizadas.coloque-asemsuaprdoprialinha:
+b
+fooax
+3RecursoseDocumentaga0oecitarjeditarcddigo-fonteJ
+1.DocumentagaooficialdaExtensdo:https:///www.mediawiki.org/wiki/Extension:Math2
+2.EditorLaTeXonlinerecomendado:https:///latexeditor.lagrida.com/2
+3.Gerador/visualizadordeformulas:https:///www.codecogs.com/latex/eqneditor.php2
+4.RenderizadorLaTeX-MathML:https:///www.mathjax.org/2
+4ExemplosdeEquacg6esRenderizadaseditarexitarcadigo-fonte
+AbaixoseguemalgunsexemploscomunsparademonstrarcomooLaTeXinterpretadopelaextensdoMath.
+4.1IdentidadedeEulerEquacaodeEulereditareaitarcadigo-fonte
+Umadasequag6esmaiselegantesdamatematica:
+e41-0
+
+
+--- LINKS ENCONTRADOS ---
+https:///www.codecogs.com/latex/eqneditor.php2
+https:///www.mediawiki.org/wiki/Extension:Math2
+https:///latexeditor.lagrida.com/2
+https:///www.mathjax.org/2

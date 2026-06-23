@@ -153,20 +153,3 @@ conteudo = ler_pdf_completo(arquivo_pdf)
 salvar_txt(conteudo, arquivo_txt)
 
 print(conteudo)
-
-# OCR pode errar acentos
-# tabelas muito complexas podem vir desalinhadas
-# fórmulas matemáticas não ficam perfeitas
-# identifica Links
-
-#como o .TXT fica
-#Página 1 (Texto) ---
-#conteúdo normal...
-
-#Página 1 (Tabela 1) ---
-#coluna1 | coluna2 | coluna3
-
-#Página 1 (OCR Imagem) ---
-#texto detectado da imagem.. 
-
-#Links 1
