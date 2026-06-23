@@ -1,10 +1,10 @@
 
-#porta 1714 - http://10.16.6.8:11434/api/generate"
+
 import argparse
 import requests
 import os
 
-API_URL = "http://10.16.6.8:1714/api/generate"
+API_URL = "http://10.16.6.8:11434/api/generate"
 MODEL_NAME = "gpt-oss:20b"
 
 MEMORY_FILE = "memory.txt"
